@@ -1,0 +1,18 @@
+body {
+    background-image: url("Imagens/background\ 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    border: 0px;
+}
+.foto {
+    width: 150px;
+    border-radius: 50%;
+}
+p {
+    color: white;
+}
+
+@media (min-width: 768px){
+
+}
