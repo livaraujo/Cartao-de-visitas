@@ -37,7 +37,6 @@ body {
     line-height: 1;
     border: 0px;
     text-shadow: 0.1em 0.1em 0.2em #EF5331;
-    display: flex;
 }
 
 .texto {
@@ -80,11 +79,18 @@ a {
         background: #ffffff; 
         color: #000;
     }
+    .descricao { 
+        font-size: 40px;
+        line-height: 1;
+        border: 0px;
+        text-shadow: 0.1em 0.1em 0.2em #EF5331;
+        display: flex;
+    }
 }
 
 @media (max-width: 400px){
     .descricao { 
-        font-size: 28px;    
+        font-size: 28px; 
     }
     h1 {
         font-size: 50px;
@@ -95,4 +101,5 @@ a {
     .bio {
         font-size: 18;
     }
+
 }
