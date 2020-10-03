@@ -117,5 +117,8 @@ a {
         display: flex;
         flex-direction: column;
     }
+    li {
+        margin: 10px;
+    }
 
 }
